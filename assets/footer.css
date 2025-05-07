@@ -1,0 +1,13 @@
+#footer{
+    background-color: burlywood;
+    margin-top: 100px;
+    padding: 5px;
+}
+.footer-text{
+    font-size:27px;
+    margin: -1px;
+}
+.footer-container{
+    text-align: center;
+    color: #333;
+}

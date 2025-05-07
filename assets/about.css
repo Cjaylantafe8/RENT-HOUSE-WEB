@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#header{
+    background-color: burlywood;
+    border-radius: 28px;
+    margin: 15px;
+}
+
+.picture1 img{
+    border-radius: 10px;
+    height: 350px;
+    width:  350px;
+    
+    
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.about-map iframe{
+     width: 1100px;
+
+}
+
+.about-text{
+  align-items: end;
+  color: brown;
+  margin-right: 600px;
+}
+.nav-link{
+    padding: 100px;
+}

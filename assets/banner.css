@@ -1,0 +1,20 @@
+.banner-image img{
+    height: 400px;
+    width: 430px;
+}
+
+h1{
+    text-align: center;
+    margin: 50px;
+    color: #3B2A1D;
+    font-size: 3rem;
+    max-width: 600px;
+}
+.ban-text{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+.section1{
+  padding: 95px 0px 301px 0px;
+}

@@ -1,0 +1,45 @@
+.navbar{
+    background-color: transparent;
+    padding: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: #3B2A1D;
+    animation: logo 1s ease-in 0s 1 normal none;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: #333333;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+/* mao ni siya ang sa hover*/
+li a:hover{
+    color: white;
+}
+
+/* mao ni siya ang animation sa logo*/
+@keyframes logo {
+    from{
+        transform: translateX(-50px);
+    }
+    to{
+       transform: translateX(0);
+    }
+    
+}

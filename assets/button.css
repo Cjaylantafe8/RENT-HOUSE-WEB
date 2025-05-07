@@ -1,0 +1,41 @@
+.primary-button{
+    padding: 12px 18px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #3B2A1D;
+    border: 2px solid white;
+    cursor: pointer;
+   font-size: 18px;
+   transition: 1s ease;
+}
+.primary-button a{
+    color: white;
+    text-decoration: none;
+}
+.primary-button:hover{
+    transform: scale(1.1);
+}
+.button-get{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondary-button{
+    padding: 8px 15px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #3B2A1D;
+    border: 2px solid white;
+    cursor: pointer;
+   font-size: 12px;
+   transition: 1s ease;
+}
+.secondary-button a{
+    color: white;
+    text-decoration: none;
+}
+.secondary-button:hover{ 
+    transform: scale(1.1);
+}
